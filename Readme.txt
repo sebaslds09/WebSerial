@@ -6,7 +6,7 @@ This app is made to communicate a serial device with a web page and interchange
 information. This approach the websocket system of HTML5 and websocket Lib in 
 python to make a bridge between the web page and the computer and with de serial
 device.
-This is useful when you need realize some task in an secure environment like a server
+This is useful when you need execute some task in an secure environment like a server
 side.
 
 To RUN:
