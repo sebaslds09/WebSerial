@@ -23,9 +23,9 @@ you can change the values in ./Python/Scrypt.py :
 	If you are going to emulate the serial port, create a new connection in port com17
 	and then run Hyperterminal
 
-2) Run ./Python/Scrypt.py
+3) Run ./Python/Scrypt.py
 
-3) Run ./html/index.html
+4) Run ./html/index.html
 
 All is ready, you can send and receive messages from the web page and from the serial device
 or hyperterminal.  
