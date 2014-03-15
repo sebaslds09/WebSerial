@@ -1,0 +1,53 @@
+<!-- Copyriht 2014 Sebastian Ortiz
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see http://www.gnu.org/licenses/.
+	-->
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="google" value="notranslate">
+		<title>System WEB-Serial</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/common.css">
+		<script type="text/javascript" src="../JavaScript/client.js"></script>
+	</head>
+	<body onLoad="start_()" class="allback">
+		<div class="back-ground">
+			<div id="allHeader">
+				<div class="header">
+					<h1><center>Communication System WEB_Serial</center></h1>
+				</div>
+				<div class="bar">
+					<h3><center>Here you can stablish a serial communication with a web application</center></h3>
+				</div>
+			</div>
+			<hr width="100%">
+			<div id="general">
+				<div id="log">
+					<div class="bar">
+						<h3><center>Terminal</center></h3>
+						<form id="form">
+						<p>
+						<h2>In</h2>
+						<textarea id="inmsn" rows="10" cols="100"></textarea>
+						<input type="submit" id="submit" value="submit" style="float:left">
+						</form>
+						<h2>Out</h2>
+						<textarea id="outmsn" rows="10" cols="100" readonly="readonly" style="margin-left:60px"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

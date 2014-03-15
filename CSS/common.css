@@ -1,0 +1,53 @@
+/* 	Copyright 2014 Sebastian Ortiz
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
+
+div.back-ground{
+	background-color:#47D147;
+	margin:1px;
+	border: 1px solid;
+	padding:10px;
+	box-shadow:5px 5px 2px #545454;
+	border-radius:20px;
+}
+
+#allHeader{
+	background-color:#e2f4e4	;
+	margin: 5px;
+	padding: 5px;
+	border-radius:20px;
+}
+
+.allback{
+	background-color:#e2f4e4;
+}
+
+.header h1{
+	margin:5px;
+	padding:5px;
+	border: 1px solid;
+	border-radius:30px;
+	box-shadow:2px 2px 1px #545454;
+	width:60%;
+	background: linear-gradient(#808080, #D1D1D1);
+}
+
+.bar h3{
+	margin:1px;
+	padding:4px;
+	border:1px solid;
+	border-radius:40px;
+	box-shadow: 2px 2px 1px #545454;
+	background: linear-gradient(#808080, #D1D1D1);
+	width:99%;
+}
